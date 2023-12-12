@@ -346,7 +346,7 @@
       const students = JSON.parse(localStorage.getItem('studentsList'));
       studentsList = students.map((student) => new Student(student.name, student.surname, student.patronymic, student.birthday, student.startDate, student.faculty));
     } else {
-      students = [];
+      studentsList = [];
     }
   }
 
