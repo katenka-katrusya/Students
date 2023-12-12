@@ -355,8 +355,8 @@
     submitOnForm();
     filterStudents();
     getFromLocalStorage();
-    renderStudentsTable(studentsList);
     sortStudentsTable(studentsList);
+    renderStudentsTable(studentsList);
   }
 
   window.addEventListener('DOMContentLoaded', mainFunction);
