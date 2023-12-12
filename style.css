@@ -1,0 +1,8 @@
+.error .form-control {
+  border-color: red;
+}
+
+.error-div {
+  color: red;
+  font-size: 13px;
+}
