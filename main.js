@@ -346,9 +346,9 @@
   function getFromLocalStorage(array) {
     if (localStorage.getItem('studentsList')) {
       const students = JSON.parse(localStorage.getItem('studentsList'));
-      studentsList = students.map((student) => new Student(student.name, student.surname, student.patronymic, student.birthday, student.startDate, student.faculty));
+      array = students.map((student) => new Student(student.name, student.surname, student.patronymic, student.birthday, student.startDate, student.faculty));
     } else {
-      studentsList = [];
+      array = [];
     }
   }
 
